@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="sketch.js" defer></script>
+</head>
+
+<body>
+
+    <button id="newGrid">Create a New Grid</button>
+
+    <h1>
+        Etch-a-Sketch
+        <span>Hold to draw</span>
+    </h1>
+
+    <div id="container">
+
+        <div id="sidebar">
+            <button id="colorMode" class="sideBtn">
+                Color<br>Mode<br>OFF
+            </button>
+
+            <button id="brightMode" class="sideBtn">
+                Bright<br>Mode<br>OFF
+            </button>
+
+            <button id="blackMode" class="sideBtn">
+                Black<br>Mode<br>OFF
+            </button>
+
+            <button id="eraseMode" class="sideBtn">
+                Erase<br>OFF
+            </button>
+        </div>
+
+        <div id="grid"></div>
+
+    </div>
+
+    <p id="credits">
+        Built as part of
+        <a href="https://www.theodinproject.com/" target="_blank">
+            The Odin Project
+        </a>
+    </p>
+
+</body>
+</html>
